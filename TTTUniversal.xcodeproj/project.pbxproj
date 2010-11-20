@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A760526312521638002D0C6B /* TTTUViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A760526212521638002D0C6B /* TTTUViewController_iPad.m */; };
+		A760526612521658002D0C6B /* TTTUViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A760526512521658002D0C6B /* TTTUViewController_iPhone.m */; };
+		A77E595B1298875200F39BA9 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59501298875100F39BA9 /* board.png */; };
+		A77E595C1298875200F39BA9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59511298875100F39BA9 /* Icon-72.png */; };
+		A77E595D1298875200F39BA9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59521298875100F39BA9 /* Icon.png */; };
+		A77E595E1298875200F39BA9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59531298875100F39BA9 /* Icon@2x.png */; };
+		A77E595F1298875200F39BA9 /* iPad_board.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59541298875100F39BA9 /* iPad_board.png */; };
+		A77E59601298875200F39BA9 /* iPad_O.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59551298875100F39BA9 /* iPad_O.png */; };
+		A77E59611298875200F39BA9 /* iPad_wood_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59561298875100F39BA9 /* iPad_wood_button.png */; };
+		A77E59621298875200F39BA9 /* iPad_X.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59571298875100F39BA9 /* iPad_X.png */; };
+		A77E59631298875200F39BA9 /* O.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59581298875100F39BA9 /* O.png */; };
+		A77E59641298875200F39BA9 /* wood_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59591298875100F39BA9 /* wood_button.png */; };
+		A77E59651298875200F39BA9 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E595A1298875100F39BA9 /* X.png */; };
+		A7A149691241BC55000D61F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A149681241BC55000D61F5 /* UIKit.framework */; };
+		A7A1496B1241BC55000D61F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A1496A1241BC55000D61F5 /* Foundation.framework */; };
+		A7A1496D1241BC55000D61F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A1496C1241BC55000D61F5 /* CoreGraphics.framework */; };
+		A7A149721241BC55000D61F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7A149701241BC55000D61F5 /* InfoPlist.strings */; };
+		A7A149741241BC55000D61F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A149731241BC55000D61F5 /* main.m */; };
+		A7A149771241BC55000D61F5 /* TTTUniversalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A149761241BC55000D61F5 /* TTTUniversalAppDelegate.m */; };
+		A7A1497A1241BC55000D61F5 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A149781241BC55000D61F5 /* MainWindow_iPhone.xib */; };
+		A7A1497D1241BC55000D61F5 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A1497B1241BC55000D61F5 /* MainWindow_iPad.xib */; };
+		A7A149801241BC55000D61F5 /* TTTUniversalAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A1497F1241BC55000D61F5 /* TTTUniversalAppDelegate_iPhone.m */; };
+		A7A149831241BC55000D61F5 /* TTTUniversalAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A149821241BC55000D61F5 /* TTTUniversalAppDelegate_iPad.m */; };
+		A7A149921241BC8C000D61F5 /* TTTUView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A149911241BC8C000D61F5 /* TTTUView_iPhone.xib */; };
+		A7A149951241BC97000D61F5 /* TTUView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A149941241BC97000D61F5 /* TTUView_iPad.xib */; };
+		A7A149981241BCCD000D61F5 /* TicTacToeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A149971241BCCD000D61F5 /* TicTacToeGame.m */; };
+		A7A1499B1241BD22000D61F5 /* TTTUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A1499A1241BD22000D61F5 /* TTTUViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A760526112521638002D0C6B /* TTTUViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTUViewController_iPad.h; path = ../TTTUViewController_iPad.h; sourceTree = "<group>"; };
+		A760526212521638002D0C6B /* TTTUViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTUViewController_iPad.m; path = ../TTTUViewController_iPad.m; sourceTree = "<group>"; };
+		A760526412521658002D0C6B /* TTTUViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTUViewController_iPhone.h; path = ../TTTUViewController_iPhone.h; sourceTree = "<group>"; };
+		A760526512521658002D0C6B /* TTTUViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTUViewController_iPhone.m; path = ../TTTUViewController_iPhone.m; sourceTree = "<group>"; };
+		A77E59501298875100F39BA9 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		A77E59511298875100F39BA9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		A77E59521298875100F39BA9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A77E59531298875100F39BA9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A77E59541298875100F39BA9 /* iPad_board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_board.png; sourceTree = "<group>"; };
+		A77E59551298875100F39BA9 /* iPad_O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_O.png; sourceTree = "<group>"; };
+		A77E59561298875100F39BA9 /* iPad_wood_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_wood_button.png; sourceTree = "<group>"; };
+		A77E59571298875100F39BA9 /* iPad_X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_X.png; sourceTree = "<group>"; };
+		A77E59581298875100F39BA9 /* O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O.png; sourceTree = "<group>"; };
+		A77E59591298875100F39BA9 /* wood_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_button.png; sourceTree = "<group>"; };
+		A77E595A1298875100F39BA9 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		A7A149651241BC55000D61F5 /* TTTUniversal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTUniversal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A149681241BC55000D61F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7A1496A1241BC55000D61F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7A1496C1241BC55000D61F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7A1496E1241BC55000D61F5 /* TTTUniversal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTTUniversal-Info.plist"; sourceTree = "<group>"; };
+		A7A1496F1241BC55000D61F5 /* TTTUniversal_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTUniversal_Prefix.pch; sourceTree = "<group>"; };
+		A7A149711241BC55000D61F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7A149731241BC55000D61F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7A149751241BC55000D61F5 /* TTTUniversalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTUniversalAppDelegate.h; sourceTree = "<group>"; };
+		A7A149761241BC55000D61F5 /* TTTUniversalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTUniversalAppDelegate.m; sourceTree = "<group>"; };
+		A7A149791241BC55000D61F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		A7A1497C1241BC55000D61F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		A7A1497E1241BC55000D61F5 /* TTTUniversalAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTUniversalAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		A7A1497F1241BC55000D61F5 /* TTTUniversalAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTUniversalAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		A7A149811241BC55000D61F5 /* TTTUniversalAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTUniversalAppDelegate_iPad.h; sourceTree = "<group>"; };
+		A7A149821241BC55000D61F5 /* TTTUniversalAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTUniversalAppDelegate_iPad.m; sourceTree = "<group>"; };
+		A7A149911241BC8C000D61F5 /* TTTUView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTTUView_iPhone.xib; sourceTree = "<group>"; };
+		A7A149941241BC97000D61F5 /* TTUView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TTUView_iPad.xib; path = ../TTUView_iPad.xib; sourceTree = "<group>"; };
+		A7A149961241BCCD000D61F5 /* TicTacToeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeGame.h; sourceTree = "<group>"; };
+		A7A149971241BCCD000D61F5 /* TicTacToeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeGame.m; sourceTree = "<group>"; };
+		A7A149991241BD22000D61F5 /* TTTUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTUViewController.h; path = ../TTTUViewController.h; sourceTree = "<group>"; };
+		A7A1499A1241BD22000D61F5 /* TTTUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTUViewController.m; path = ../TTTUViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A149621241BC55000D61F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A149691241BC55000D61F5 /* UIKit.framework in Frameworks */,
+				A7A1496B1241BC55000D61F5 /* Foundation.framework in Frameworks */,
+				A7A1496D1241BC55000D61F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A77E594F1298875100F39BA9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A77E59501298875100F39BA9 /* board.png */,
+				A77E59511298875100F39BA9 /* Icon-72.png */,
+				A77E59521298875100F39BA9 /* Icon.png */,
+				A77E59531298875100F39BA9 /* Icon@2x.png */,
+				A77E59541298875100F39BA9 /* iPad_board.png */,
+				A77E59551298875100F39BA9 /* iPad_O.png */,
+				A77E59561298875100F39BA9 /* iPad_wood_button.png */,
+				A77E59571298875100F39BA9 /* iPad_X.png */,
+				A77E59581298875100F39BA9 /* O.png */,
+				A77E59591298875100F39BA9 /* wood_button.png */,
+				A77E595A1298875100F39BA9 /* X.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A7A149541241BC55000D61F5 = {
+			isa = PBXGroup;
+			children = (
+				A7A1495B1241BC55000D61F5 /* iPhone */,
+				A7A1495C1241BC55000D61F5 /* iPad */,
+				A7A1495D1241BC55000D61F5 /* Classes */,
+				A7A1495E1241BC55000D61F5 /* Other Sources */,
+				A7A1495F1241BC55000D61F5 /* Resources */,
+				A7A149601241BC55000D61F5 /* Frameworks */,
+				A7A149661241BC55000D61F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A1495B1241BC55000D61F5 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A760526412521658002D0C6B /* TTTUViewController_iPhone.h */,
+				A760526512521658002D0C6B /* TTTUViewController_iPhone.m */,
+				A7A149781241BC55000D61F5 /* MainWindow_iPhone.xib */,
+				A7A149911241BC8C000D61F5 /* TTTUView_iPhone.xib */,
+				A7A1497E1241BC55000D61F5 /* TTTUniversalAppDelegate_iPhone.h */,
+				A7A1497F1241BC55000D61F5 /* TTTUniversalAppDelegate_iPhone.m */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		A7A1495C1241BC55000D61F5 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				A7A149941241BC97000D61F5 /* TTUView_iPad.xib */,
+				A7A1497B1241BC55000D61F5 /* MainWindow_iPad.xib */,
+				A7A149811241BC55000D61F5 /* TTTUniversalAppDelegate_iPad.h */,
+				A7A149821241BC55000D61F5 /* TTTUniversalAppDelegate_iPad.m */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		A7A1495D1241BC55000D61F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A760526112521638002D0C6B /* TTTUViewController_iPad.h */,
+				A760526212521638002D0C6B /* TTTUViewController_iPad.m */,
+				A7A149991241BD22000D61F5 /* TTTUViewController.h */,
+				A7A1499A1241BD22000D61F5 /* TTTUViewController.m */,
+				A7A149751241BC55000D61F5 /* TTTUniversalAppDelegate.h */,
+				A7A149761241BC55000D61F5 /* TTTUniversalAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7A1495E1241BC55000D61F5 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A77E594F1298875100F39BA9 /* Images */,
+				A7A149961241BCCD000D61F5 /* TicTacToeGame.h */,
+				A7A149971241BCCD000D61F5 /* TicTacToeGame.m */,
+				A7A1496F1241BC55000D61F5 /* TTTUniversal_Prefix.pch */,
+				A7A149731241BC55000D61F5 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A7A1495F1241BC55000D61F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7A1496E1241BC55000D61F5 /* TTTUniversal-Info.plist */,
+				A7A149701241BC55000D61F5 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A7A149601241BC55000D61F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A149681241BC55000D61F5 /* UIKit.framework */,
+				A7A1496A1241BC55000D61F5 /* Foundation.framework */,
+				A7A1496C1241BC55000D61F5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A149661241BC55000D61F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A149651241BC55000D61F5 /* TTTUniversal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A149641241BC55000D61F5 /* TTTUniversal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A149861241BC55000D61F5 /* Build configuration list for PBXNativeTarget "TTTUniversal" */;
+			buildPhases = (
+				A7A149611241BC55000D61F5 /* Sources */,
+				A7A149621241BC55000D61F5 /* Frameworks */,
+				A7A149631241BC55000D61F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTUniversal;
+			productName = TTTUniversal;
+			productReference = A7A149651241BC55000D61F5 /* TTTUniversal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A149561241BC55000D61F5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A7A149591241BC55000D61F5 /* Build configuration list for PBXProject "TTTUniversal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7A149541241BC55000D61F5;
+			productRefGroup = A7A149661241BC55000D61F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A149641241BC55000D61F5 /* TTTUniversal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A149631241BC55000D61F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A149721241BC55000D61F5 /* InfoPlist.strings in Resources */,
+				A7A1497A1241BC55000D61F5 /* MainWindow_iPhone.xib in Resources */,
+				A7A1497D1241BC55000D61F5 /* MainWindow_iPad.xib in Resources */,
+				A7A149921241BC8C000D61F5 /* TTTUView_iPhone.xib in Resources */,
+				A7A149951241BC97000D61F5 /* TTUView_iPad.xib in Resources */,
+				A77E595B1298875200F39BA9 /* board.png in Resources */,
+				A77E595C1298875200F39BA9 /* Icon-72.png in Resources */,
+				A77E595D1298875200F39BA9 /* Icon.png in Resources */,
+				A77E595E1298875200F39BA9 /* Icon@2x.png in Resources */,
+				A77E595F1298875200F39BA9 /* iPad_board.png in Resources */,
+				A77E59601298875200F39BA9 /* iPad_O.png in Resources */,
+				A77E59611298875200F39BA9 /* iPad_wood_button.png in Resources */,
+				A77E59621298875200F39BA9 /* iPad_X.png in Resources */,
+				A77E59631298875200F39BA9 /* O.png in Resources */,
+				A77E59641298875200F39BA9 /* wood_button.png in Resources */,
+				A77E59651298875200F39BA9 /* X.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A149611241BC55000D61F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A149741241BC55000D61F5 /* main.m in Sources */,
+				A7A149771241BC55000D61F5 /* TTTUniversalAppDelegate.m in Sources */,
+				A7A149801241BC55000D61F5 /* TTTUniversalAppDelegate_iPhone.m in Sources */,
+				A7A149831241BC55000D61F5 /* TTTUniversalAppDelegate_iPad.m in Sources */,
+				A7A149981241BCCD000D61F5 /* TicTacToeGame.m in Sources */,
+				A7A1499B1241BD22000D61F5 /* TTTUViewController.m in Sources */,
+				A760526312521638002D0C6B /* TTTUViewController_iPad.m in Sources */,
+				A760526612521658002D0C6B /* TTTUViewController_iPhone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7A149701241BC55000D61F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A149711241BC55000D61F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7A149781241BC55000D61F5 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A149791241BC55000D61F5 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A7A1497B1241BC55000D61F5 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A1497C1241BC55000D61F5 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7A149841241BC55000D61F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7A149851241BC55000D61F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7A149871241BC55000D61F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TTTUniversal_Prefix.pch;
+				INFOPLIST_FILE = "TTTUniversal-Info.plist";
+				PRODUCT_NAME = TTTUniversal;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7A149881241BC55000D61F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TTTUniversal_Prefix.pch;
+				INFOPLIST_FILE = "TTTUniversal-Info.plist";
+				PRODUCT_NAME = TTTUniversal;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A149591241BC55000D61F5 /* Build configuration list for PBXProject "TTTUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A149841241BC55000D61F5 /* Debug */,
+				A7A149851241BC55000D61F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A149861241BC55000D61F5 /* Build configuration list for PBXNativeTarget "TTTUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A149871241BC55000D61F5 /* Debug */,
+				A7A149881241BC55000D61F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A149561241BC55000D61F5 /* Project object */;
+}
